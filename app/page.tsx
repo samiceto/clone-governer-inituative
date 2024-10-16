@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Nav } from "./components/nav";
 import { Bg } from "./components/bg"
 import { Peragraph } from "./components/peragraph";
