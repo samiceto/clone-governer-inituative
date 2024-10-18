@@ -4,7 +4,8 @@ export const Bg = () => {
   return (
     
       <div className='relative'>
-        <div className="bg-no-repeat absolute top-0 hidden md:block"><Image src="/house.jpg" alt='' width={500} height={500} className='md:h-[120vh] w-screen opacity-20'></Image></div>
+        <div className="bg-no-repeat absolute top-0 hidden md:block"><Image src="/house.jpg" alt='' width={500} height={500} className='sm:h-[120vh] w-screen opacity-20'></Image></div>
+        
        <div className='relative flex w-[120vw] justify-center sm:justify-between py-10 px-2 sm:p-20 flex-col md:flex-row'> <div><h1 className='text-blue-900 font-extrabold text-[2rem] sm:text-[3rem]'>Governor Sindh</h1>
         <p className='text-blue-900 font-bold text-[1.5rem]'>Kamran Khan Tessori</p>
         <h2 className='text-blue-500 font-extrabold text-[2rem] sm:text-[2.5rem]'>Certified Cloud<br></br>Applied Generative AI<br></br>Engineer (GenEng)</h2>
@@ -16,7 +17,7 @@ export const Bg = () => {
     <div>
     <button className='bg-blue-900 text-white font-extrabold mb-7 px-[36vw] md:px-9 py-3 rounded-md'>APLLY NOW</button>
     </div>
-    <div className='ml-40'>
+    <div className='ml-32'>
         <h1 className='font-extrabold text-blue-900 text-xl px-4'>562,143</h1>
         <p className='text-blue-900 font-thin text-sm'>Accepted Applications</p>
     </div>
@@ -26,7 +27,7 @@ export const Bg = () => {
 
 <div className='relative'>
 <div className="absolute top-0 sm:hidden -left-20"><Image src="/house.jpg" alt='' width={500} height={500} className='h-[60vh] w-fit opacity-20'></Image></div>
-<Image src="/cover.png" alt='' width={500} height={500} className='h-[60vh] w-auto pb-7 mx-5'></Image>
+<Image src="/cover.png" alt='' width={500} height={500} className='h-[64vh] sm:h-[110vh] w-auto pb-7 mx-5'></Image>
 
 </div> 
         
