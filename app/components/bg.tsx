@@ -14,7 +14,7 @@ export const Bg = () => {
 
 <div className='md:flex sm:px-8 sm:gap-10 py-9'>
     <div>
-    <button className='bg-blue-900 text-white font-extrabold mb-7 px-40 md:px-9 py-3 rounded-md'>APLLY NOW</button>
+    <button className='bg-blue-900 text-white font-extrabold mb-7 px-[36vw] md:px-9 py-3 rounded-md'>APLLY NOW</button>
     </div>
     <div className='ml-40'>
         <h1 className='font-extrabold text-blue-900 text-xl px-4'>562,143</h1>
@@ -25,8 +25,8 @@ export const Bg = () => {
 
 
 <div className='relative'>
-<div className="absolute top-0 sm:hidden -left-20"><Image src="/house.jpg" alt='' width={500} height={500} className='h-[80vh] w-fit opacity-20'></Image></div>
-<Image src="/cover.png" alt='' width={500} height={500} className='h-[80vh] w-auto pb-7'></Image>
+<div className="absolute top-0 sm:hidden -left-20"><Image src="/house.jpg" alt='' width={500} height={500} className='h-[60vh] w-fit opacity-20'></Image></div>
+<Image src="/cover.png" alt='' width={500} height={500} className='h-[60vh] w-auto pb-7 mx-5'></Image>
 
 </div> 
         
